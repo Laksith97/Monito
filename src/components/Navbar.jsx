@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
-              <img className="h-8 w-auto" src="/mon3.png" alt="Monito" />
+              <img className="h-8 w-auto" src="/monito-main-logo.png" alt="Monito" />
             </Link>
             <div className="hidden md:block ml-10">
               <div className="flex space-x-4">
