@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 
 function App() {
@@ -10,8 +11,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          {/* Add more routes as needed */}
+          
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

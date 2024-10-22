@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-md">
+    <nav className="fixed top-0 w-full z-50 bg-background-light shadow-md py-0 mb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
-              <img className="h-8 w-auto" src="/logo.png" alt="Monito" />
+              <img className="h-8 w-auto" src="/mon3.png" alt="Monito" />
             </Link>
             <div className="hidden md:block ml-10">
               <div className="flex space-x-4">
