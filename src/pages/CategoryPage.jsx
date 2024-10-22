@@ -96,18 +96,36 @@ const CategoryPage = () => {
             />
           </div>
           <div className="relative ml-auto w-1/2 pr-16 pl-8">
-            <div className="text-right">
-              <h1 className="text-white text-5xl font-bold mb-2">One More Friend</h1>
-              <h2 className="text-white text-3xl font-bold mb-4">Thousands More Fun!</h2>
-              <p className="text-white text-sm mb-6 max-w-md ml-auto">
-                Having a pet means you have more joy, a new friend, a happy person who will always be with you.
-              </p>
-              <div className="flex justify-end space-x-4">
-                <button className="bg-transparent border border-white text-white px-6 py-2 rounded-full">
-                  View Intro
-                </button>
-              </div>
-            </div>
+                <div className="text-right">
+                    <h1 className="text-white text-5xl font-bold mb-2">One More Friend</h1>
+                    <h2 className="text-white text-3xl font-bold mb-4">Thousands More Fun!</h2>
+                    <p className="text-white text-sm mb-6 max-w-md ml-auto">
+                    Having a pet means you have more joy, a new friend, a happy person
+                    who will always be with you to have fun. We have 200+ different pets
+                    that can meet your needs!
+                    </p>
+                    <div className="flex justify-end space-x-4">
+                        <button className="bg-transparent border border-white text-white px-6 py-2 rounded-full hover:bg-white hover:text-[#003459] transition duration-300 text-sm flex items-center">
+                            View Intro
+                            <svg
+                            className="w-4 h-4 ml-2"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M9 5l7 7-7 7"
+                            />
+                            </svg>
+                        </button>
+                        <button className="bg-white text-[#003459] px-6 py-2 rounded-full hover:bg-gray-100 transition duration-300 text-sm">
+                            Explore Now
+                        </button>
+                    </div>
+                </div>
           </div>
         </div>
       </div>
